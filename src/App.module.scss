@@ -1,0 +1,17 @@
+.App {
+  & .container{
+    & label {
+      color:red;
+    } 
+  }
+}
+
+.app{
+  @apply grid justify-center text-lime-800;
+  & .container {
+    color: salmon;
+    & .list{
+      color: purple;
+    }
+  }
+}
